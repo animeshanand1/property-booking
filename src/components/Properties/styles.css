@@ -141,6 +141,37 @@ input[type="checkbox"] {
 .gallery-item-row-2{
   grid-row: span 2;
 }
+.addition-details{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
+}
+.more-about-text{
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+  border: 1px solid rgb(7, 218, 200);
+  border-radius: 3px 5px;
+  padding: 0 6px;
+}
+/* request form css */
+.request-form{
+  display: flex;
+  flex-direction: column;
+  border: 1px solid cyan;
+}
+.request-btn {
+  background-color:black;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.request-btn:hover {
+  background-color: #45a049;
+}
+
 @media screen and (max-width:1024px) {
   .gallery-item{
     grid-template-columns: repeat(2,1fr);
