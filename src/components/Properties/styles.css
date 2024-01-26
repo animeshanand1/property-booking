@@ -1,0 +1,149 @@
+.properties-container {
+  display: flex;
+  margin: 4%;
+}
+.filter-section {
+  margin-bottom: 10px;
+  padding: 10px;
+  width: 20%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: fit-content;
+}
+
+label {
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 0.8rem;
+   background-color: #fff;
+}
+
+select::-ms-expand {
+  display: none;
+}
+select::after {
+  content: "\25BC"; 
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+}
+.propertySelect {
+  color: rebeccapurple;
+}
+.draggable-input {
+  cursor: pointer;
+}
+input[type="checkbox"] {
+  vertical-align: middle;
+}
+/* filter code ends here */
+
+/*room cards css list  */
+.room-card {
+  margin-left: 1rem;
+  display: flex;
+}
+.roomImg {
+  width: 450px;
+  height: 250px;
+  border-radius: 0px 10px 0px 10px;
+}
+.more-description h4 {
+  margin-top: -0.3rem;
+  margin-left: 0.5rem;
+}
+
+.amenities-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: gray;
+  list-style: none;
+}
+.amenity {
+  margin: 10px;
+}
+.amenities-list i {
+  margin-right: 10px;
+  color: goldenrod;
+}
+.amenities-list span {
+  font-size: 0.6rem;
+  color: white;
+  text-transform: capitalize;
+}
+.address-full {
+  display: flex;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.address-full i {
+  font-size: 0.8rem;
+}
+.address-full i:hover {
+  color: rgb(255, 0, 85);
+}
+.reach-out,
+.connect {
+  margin: 0;
+  font-weight: normal;
+}
+.fa-location-dot,
+.fa-phone {
+    margin-right: 8px; 
+}
+.address-full p {
+  margin-top: -0.4rem;
+}
+.rent-enquiry {
+  margin-left: 10px;
+  margin-right: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.project-property-card{
+  border: 1px solid rgb(123, 13, 226);
+  border-radius: 15px 10px;
+  background-color:rgb(230, 150, 120);
+  margin-bottom: 10px;
+  margin-left: 20px;
+  padding: 5px;
+}
+
+
+/* Variables */
+
+/* Global styles */
+.gallery-item{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-auto-rows: 300px;
+  gap: 10px;
+  padding: 10px;
+}
+.gallery-item > img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.gallery-item-col-2{
+  grid-column: span 2;
+}
+.gallery-item-row-2{
+  grid-row: span 2;
+}
+@media screen and (max-width:1024px) {
+  .gallery-item{
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 200px;
+  }
+}

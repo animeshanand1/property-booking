@@ -1,0 +1,53 @@
+
+.agentCard .card {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+}
+.agentCard .card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.agentCard .card-content {
+  padding: 16px;
+}
+
+.agentCard .agent-name {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.agentCard .ratings {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.agentCard .ratings span {
+  margin-right: 4px;
+}
+
+.agentCard .review {
+  margin-bottom: 8px;
+}
+
+.agentCard .view-profile-btn {
+  padding: 8px 10px;
+  background-color: #316399;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+}
+
+.agentGrid{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}

@@ -1,0 +1,15 @@
+/* 
+
+.texturedbutton{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgb(207, 207, 207);
+    cursor: pointer;
+  }
+  
+  .texturedbutton:hover{
+    border: none;
+    border-radius: 15px;
+    box-shadow: inset 0 0 5px #f9f8fc;
+    } 
+  */
