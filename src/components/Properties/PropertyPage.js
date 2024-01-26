@@ -86,7 +86,6 @@ function PropertyPage() {
               id="message"
               name="message"
               rows="4"
-              cols="60"
               placeholder="Message"
               required
             />
