@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import DynamicStar from "../utils/DynamicStar";
 import HomeHighlight from "../utils/Home-util";
+import Footer from "../Footer/Footer";
 function PropertyPage() {
   return (
     <div>
@@ -134,6 +135,7 @@ function PropertyPage() {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 }

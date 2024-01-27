@@ -126,7 +126,7 @@ input[type="checkbox"] {
 .gallery-item{
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  grid-auto-rows: 300px;
+  grid-auto-rows: 200px;
   gap: 10px;
   padding: 10px;
   margin-bottom: 10px;
@@ -152,6 +152,7 @@ input[type="checkbox"] {
   flex-direction: column;
   border: 1px solid rgb(7, 218, 200);
   border-radius: 3px 5px;
+  height: 300px;
   padding: 0 6px;
 }
 /* request form css */
@@ -159,6 +160,7 @@ input[type="checkbox"] {
   display: flex;
   flex-direction: column;
   border: 1px solid cyan;
+  
 }
 .request-form input{
   width: 50%;
@@ -220,6 +222,7 @@ input[type="checkbox"] {
   border: 1px solid #ccc;
   padding: 10px;
   width: 400px;
+  margin-left: 1.2rem;
 }
 
 /* Add styles for star icons or rating component in the .profile-reviews section */

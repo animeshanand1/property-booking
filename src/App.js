@@ -6,6 +6,7 @@ import Login from "./components/Login/Login";
 import AgentLists from "./components/Agents/AgentLists";
 import AgentProfile from "./components/Agents/AgentProfile";
 import PropertyPage from "./components/Properties/PropertyPage";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -16,7 +17,6 @@ function App() {
         <Route path="/agents" element={<AgentLists/>} />
         <Route path="/agentprofile" element={<AgentProfile/>} />
         <Route path="/property/:id" element={<PropertyPage/>} />
-
       </Routes>
     </Router>
   );
