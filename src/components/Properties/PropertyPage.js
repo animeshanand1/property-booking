@@ -2,9 +2,11 @@ import React, { useEffect } from "react";
 import DynamicStar from "../utils/DynamicStar";
 import HomeHighlight from "../utils/Home-util";
 import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
 function PropertyPage() {
   return (
     <div>
+      <Header/>
       <section className="gallery">
         <div className="gallery-item">
           <img
