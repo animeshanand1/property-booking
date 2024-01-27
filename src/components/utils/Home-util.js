@@ -3,8 +3,8 @@ import React from 'react';
 const HomeHighlight = ({ parking,ac,yearBuilt,landArea,listed,hoa }) => {
   return (
     <div className="home-highlight">
-      <div className="column-home">
         <h4>Home Highlights</h4>
+      <div className="column-home">
         <ul>
           <li>Parking: {parking}</li>
           <li>A/C: {ac}</li>
