@@ -19,7 +19,7 @@ function App() {
         <Route path="/agents" element={<AgentLists/>} />
         <Route path="/agentprofile" element={<AgentProfile/>} />
         <Route path="/property/:id" element={<PropertyPage/>} />
-        <Route path="/admin/login" element={<AdminTab/>} />
+        <Route path="/admin/login" element={<AdminTab/>}/>
         <Route path="/admin/home" element={<AdminHome/>} />
       </Routes>
     </Router>

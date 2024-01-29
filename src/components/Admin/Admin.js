@@ -138,11 +138,11 @@ function AdminTab() {
             username
           </label>
           <div className="input-email" style={styles.inputEmail}>
-            <i class="fas fa-envelope icon" style={styles.icon} />
+            <i class="fas fa-user-circle icon" style={styles.icon} />
             <input
               type="text"
               name="username"
-              placeholder="Enter your e-mail"
+              placeholder="Enter your username"
               required
               style={styles.inputField}
               value={formData.username}
