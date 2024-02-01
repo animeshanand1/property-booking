@@ -1,679 +1,747 @@
 import React from "react";
-
+import './admin.css'
 function AdminHome() {
   return (
     <>
-      <div class="admin-dashbord">
-        <div class="organic-traffic-box">
-          <div class="sidebar-and-logo">
-            <div class="sidebar-and-logo-child" />
-            <div class="blog-title-frame">
-              <button class="simux3d-1-parent">
-                <img
-                  class="simux3d-1-icon"
-                  alt=""
-                  src="./public/simux3d-1@2x.png"
-                />
+    <div className="hr-panel">
+      <div className="search-frame">
+        <div className="search-frame-child"></div>
+        <div className="bell-frame">
+          <img
+            className="presenton-late-frame"
+            loading="eager"
+            alt=""
+            src="./public/frame.svg"
+          />
 
-                <img
-                  class="purpale-1-icon"
-                  alt=""
-                  src="./public/purpale-1@2x.png"
-                />
-              </button>
+          <div className="absent-leave-frame">
+            <div className="c-u-l-frame">
+              <input className="dashboard" type="checkbox" />
+
+              <input className="dashboard1" placeholder="Dashboard" type="text" />
             </div>
-            <div class="session-device-text-wrapper">
-              <div class="session-device-text">
-                <div class="browser-used-frame">
-                  <div class="chrome-fox-microsoft-edge-fram">
-                    <div class="menu">Menu</div>
-                  </div>
-                  <div class="user-panel-pages-viewed">
-                    <div class="user-panel-pages-viewed-child" />
-                    <img
-                      class="radix-iconsdashboard"
-                      loading="eager"
-                      alt=""
-                      src="./public/radixiconsdashboard.svg"
-                    />
+            <div className="c-u-l-frame1">
+              <img
+                className="usercirclegear-icon"
+                loading="eager"
+                alt=""
+                src="./public/usercirclegear.svg"
+              />
 
-                    <b class="dashboard">Dashboard</b>
-                  </div>
-                  <div class="gold-admin-dashboard-text">
-                    <div class="frame-parent">
-                      <div class="frame-group">
-                        <div class="uilcalender-parent">
-                          <img
-                            class="uilcalender-icon"
-                            loading="eager"
-                            alt=""
-                            src="./public/uilcalender.svg"
-                          />
-
-                          <div class="calendar">Calendar</div>
-                        </div>
-                        <div class="bxchat-parent">
-                          <img
-                            class="bxchat-icon"
-                            loading="eager"
-                            alt=""
-                            src="./public/bxchat.svg"
-                          />
-
-                          <div class="chat">Chat</div>
-                        </div>
-                        <div class="evaphone-call-outline-parent">
-                          <img
-                            class="evaphone-call-outline-icon"
-                            loading="eager"
-                            alt=""
-                            src="./public/evaphonecalloutline.svg"
-                          />
-
-                          <div class="contact">Contact</div>
-                        </div>
-                        <div class="uilblogger-alt-parent">
-                          <img
-                            class="uilblogger-alt-icon"
-                            loading="eager"
-                            alt=""
-                            src="./public/uilbloggeralt.svg"
-                          />
-
-                          <div class="blog">Blog</div>
-                        </div>
-                        <div class="arcticonssimplefilemanager-parent">
-                          <img
-                            class="arcticonssimplefilemanager"
-                            loading="eager"
-                            alt=""
-                            src="./public/arcticonssimplefilemanager.svg"
-                          />
-
-                          <div class="file-manager">File manager</div>
-                        </div>
-                        <div class="utilities">Utilities</div>
-                        <div class="lets-iconschart-parent">
-                          <img
-                            class="lets-iconschart"
-                            loading="eager"
-                            alt=""
-                            src="./public/letsiconschart.svg"
-                          />
-
-                          <div class="chart">Chart</div>
-                        </div>
-                        <div class="ant-designform-outlined-parent">
-                          <img
-                            class="ant-designform-outlined-icon"
-                            loading="eager"
-                            alt=""
-                            src="./public/antdesignformoutlined.svg"
-                          />
-
-                          <div class="forms">Forms</div>
-                        </div>
-                      </div>
-                      <div class="traffic-sources-frame">
-                        <div class="text-frame-traffic-source">
-                          <div class="rectangle-frame" />
-                          <div class="line-frame-separator">05</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="frame-frame-text">
-                  <div class="sun-mon-fri-sat-frame">
-                    <img
-                      class="ouiapp-security-icon"
-                      loading="eager"
-                      alt=""
-                      src="./public/ouiappsecurity.svg"
-                    />
-
-                    <div class="authentication">Authentication</div>
-                  </div>
-                </div>
-              </div>
+              <div className="employe-management">Employe Management</div>
             </div>
-            <div class="tue-frame">
-              <div class="mode">
-                <div class="mode-child" />
-                <div class="thu-frame">
-                  <img
-                    class="fri-frame-icon"
-                    loading="eager"
-                    alt=""
-                    src="./public/vector.svg"
-                  />
+            <div className="c-u-l-frame2">
+              <img
+                className="alarm-icon"
+                loading="eager"
+                alt=""
+                src="./public/alarm.svg"
+              />
 
-                  <div class="light">Light</div>
-                </div>
-                <button class="group-frame">
-                  <img
-                    class="iconamoonmode-dark-bold"
-                    alt=""
-                    src="./public/iconamoonmodedarkbold.svg"
-                  />
+              <div className="attendance">Attendance</div>
+            </div>
+            <div className="c-u-l-frame3">
+              <img
+                className="leaf-icon"
+                loading="eager"
+                alt=""
+                src="./public/leaf.svg"
+              />
 
-                  <div class="dark">Dark</div>
-                </button>
-              </div>
+              <div className="leave">Leave</div>
+            </div>
+            <div className="c-u-l-frame4">
+              <input className="wallet" type="checkbox" />
+
+              <div className="payroll">Payroll</div>
+            </div>
+            <div className="c-u-l-frame5">
+              <img
+                className="gear-icon"
+                loading="eager"
+                alt=""
+                src="./public/gear.svg"
+              />
+
+              <div className="settings">Settings</div>
+            </div>
+            <div className="c-u-l-frame6">
+              <img
+                className="receipt-icon"
+                loading="eager"
+                alt=""
+                src="./public/receipt.svg"
+              />
+
+              <div className="report">Report</div>
             </div>
           </div>
         </div>
-        <main class="registered-users-frame">
-          <section class="index-html-rectangle">
-            <div class="brave-browser-rectangle">
-              <div class="rectangle-parent">
-                <div class="frame-child" />
-                <img
-                  class="octiconsearch-16"
-                  alt=""
-                  src="./public/octiconsearch16.svg"
-                />
+      </div>
+      <main className="personal-calendar-frame">
+        <header className="government-holiday-text">
+          <div className="search-parent">
+            <img className="search-icon" alt="" src="./public/search.svg" />
 
+            <input className="search" placeholder="Search..." type="text" />
+
+            <img
+              className="keyboard-voice-icon"
+              alt=""
+              src="./public/keyboard-voice.svg"
+            />
+          </div>
+          <img className="bell-icon" alt="" src="./public/bell.svg" />
+
+          <div className="present-frame">
+            <div className="header-frame">
+              <div className="user-frame">
+                <b className="jalal-uddin">Admin</b>
+                <div className="ceo">administrator</div>
+              </div>
+              <img
+                className="date-frame-icon"
+                alt=""
+                src="./public/date-frame@2x.png"
+              />
+            </div>
+            <img
+              className="arrow-drop-down-icon"
+              alt=""
+              src="./public/arrow-drop-down.svg"
+            />
+          </div>
+        </header>
+        <section className="late-absent-options-frame">
+          <div className="present-absent-frames">
+            <div className="approval-text-frame">
+              <div className="leave-option-frame">
+                <div className="govt-holiday-text-frame">
+                  <img
+                    className="cloudsun-icon"
+                    loading="eager"
+                    alt=""
+                    src="./public/cloudsun.svg"
+                  />
+
+                  <div className="partly-cloudy">Partly Cloudy</div>
+                </div>
+                <div className="frame-with-two-children">
+                  <div className="frame-with-three-children"></div>
+                </div>
+                <div className="frame-with-four-children">
+                  <div className="september-2022">21 September 2022</div>
+                  <h1 className="today">Today</h1>
+                </div>
+              </div>
+              <div className="bell-frame1">
+                <div className="present-late-frame">
+                  <div className="present-on-time">Present-on time</div>
+                  <b className="absent-frame">70</b>
+                </div>
+                <div className="present-late-frame1">
+                  <div className="late">Late</div>
+                  <b className="b">20</b>
+                </div>
+                <div className="approval-frame">
+                  <div className="c-u-l-frame7">
+                    <div className="absent">Absent</div>
+                    <b className="software-developer-frame">7</b>
+                  </div>
+                  <div className="c-u-l-frame8">
+                    <div className="leave1">Leave</div>
+                    <b className="b1">3</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="applicant-frame">
+              <div className="rectangle-approved-frame">
                 <input
-                  class="search-any-thing"
-                  placeholder="Search any thing here"
+                  className="personal-calendar-frame1"
+                  placeholder="Approval"
                   type="text"
                 />
-              </div>
-              <div class="organic-traffic-node">
-                <div class="group-mask-group">
-                  <div class="separator-line-node">
-                    <img
-                      class="phseal-warning-icon"
-                      loading="eager"
-                      alt=""
-                      src="./public/phsealwarning.svg"
-                    />
 
-                    <div class="need-help">Need help</div>
-                  </div>
-                  <div class="separator-line-node1">
-                    <img
-                      class="carbonsettings-icon"
-                      loading="eager"
-                      alt=""
-                      src="./public/carbonsettings.svg"
-                    />
+                <div className="weekdays-frame">
+                  <div className="wednesday-frame">
+                    <div className="cul">
+                      <button className="friday-frame">
+                        <b className="date-of-application">Date of Application</b>
+                      </button>
+                      <div className="friday-frame1">
+                        <div className="govt-holiday-frame">03/07/2021</div>
+                      </div>
+                      <div className="leave-frame">
+                        <div className="leave-type-frame">01/07/2022</div>
+                      </div>
+                      <div className="present-absent-frame">
+                        <div className="calendar-frame">27/06/2022</div>
+                      </div>
+                      <div className="approval-rectangles">
+                        <div className="employee-names">27/06/2022</div>
+                      </div>
+                    </div>
+                    <div className="cul1">
+                      <div className="c-u-l-list">
+                        <b className="applicant">Applicant</b>
+                      </div>
+                      <div className="name-and-role-frame">
+                        <b className="savannah-nguyen">Savannah Nguyen</b>
+                        <input
+                          className="project-manager"
+                          placeholder="Project Manager"
+                          type="text"
+                        />
+                      </div>
+                      <div className="name-and-role-frame1">
+                        <b className="eleanor-pena">Eleanor Pena</b>
+                        <div className="software-developer">Software Developer</div>
+                      </div>
+                      <div className="name-and-role-frame2">
+                        <b className="brooklyn-simmons">Brooklyn Simmons</b>
+                        <input
+                          className="nursing-assistant"
+                          placeholder="Nursing Assistant"
+                          type="text"
+                        />
+                      </div>
+                      <div className="name-and-role-frame3">
+                        <b className="brooklyn-simmons1">Brooklyn Simmons</b>
+                        <input
+                          className="nursing-assistant1"
+                          placeholder="Nursing Assistant"
+                          type="text"
+                        />
+                      </div>
+                    </div>
+                    <div className="cul2">
+                      <div className="application-type-wrapper">
+                        <b className="application-type">Application type</b>
+                      </div>
+                      <input
+                        className="cul-child"
+                        placeholder="Casual leave"
+                        type="text"
+                      />
 
-                    <div class="settings">Settings</div>
+                      <div className="late-entry-wrapper">
+                        <div className="late-entry">Late entry</div>
+                      </div>
+                      <input
+                        className="cul-item"
+                        placeholder="Paternity leave"
+                        type="text"
+                      />
+
+                      <input
+                        className="cul-inner"
+                        placeholder="Paternity leave"
+                        type="text"
+                      />
+                    </div>
+                    <div className="cul3">
+                      <div className="duration-wrapper">
+                        <b className="duration">Duration</b>
+                      </div>
+                      <input
+                        className="frame-input"
+                        placeholder="02 (05-06 Jul)"
+                        type="text"
+                      />
+
+                      <div className="jul-wrapper">
+                        <div className="jul">01 (06 Jul)</div>
+                      </div>
+                      <input
+                        className="cul-child1"
+                        placeholder="05 (05-06 Jul)"
+                        type="text"
+                      />
+
+                      <input
+                        className="cul-child2"
+                        placeholder="05 (05-06 Jul)"
+                        type="text"
+                      />
+                    </div>
                   </div>
                 </div>
-                <div class="traffic-type-label">
-                  <button class="traffic-icon-box">
-                    <img
-                      class="icons8share"
-                      alt=""
-                      src="./public/icons8share.svg"
-                    />
-
-                    <div class="share">Share</div>
-                  </button>
-                  <button class="traffic-icon-box1">
-                    <img
-                      class="icon-park-outlinedata"
-                      alt=""
-                      src="./public/iconparkoutlinedata.svg"
-                    />
-
-                    <div class="data-export">Data export</div>
-                  </button>
+              </div>
+              <div className="leaves-container">
+                <div className="thin-divider-line">
+                  <div className="thin-divider-line-child"></div>
+                  <div className="approved">Approved</div>
+                </div>
+                <div className="thin-divider-line1">
+                  <div className="thin-divider-line-item"></div>
+                  <div className="rejected">Rejected</div>
+                </div>
+                <div className="thin-divider-line2">
+                  <div className="thin-divider-line-inner"></div>
+                  <div className="pending">Pending</div>
                 </div>
               </div>
             </div>
-            <nav class="info">
-              <div class="rectangle-group">
-                <div class="frame-item" />
-                <div class="session">Session</div>
-                <div class="k">58k</div>
-                <div class="new-session-today-container">
-                  <span>+26%</span>
-                  <span class="new-session-today"> new session today</span>
+          </div>
+          <div className="horizontal-ellipse">
+            <div className="friday-text-label">
+              <div className="personal-calender-parent">
+                <b className="personal-calender">Personal Calender</b>
+                <div className="arrow-forward-ios-parent">
+                  <img
+                    className="arrow-forward-ios-icon"
+                    alt=""
+                    src="./public/arrow-forward-ios@2x.png"
+                  />
+
+                  <div className="september-20221">September 2022</div>
+                  <img
+                    className="arrow-forward-ios-icon1"
+                    alt=""
+                    src="./public/arrow-forward-ios-1.svg"
+                  />
                 </div>
               </div>
-              <div class="rectangle-container">
-                <div class="frame-inner" />
-                <div class="average-session">Average session</div>
-                <div class="div">00.18</div>
-                <div class="weekly-average-session-container">
-                  <span>+18%</span>
-                  <span class="weekly-average-session">
-                    weekly average session
-                  </span>
+              <div className="month-frame">
+                <div className="applicant-frame1">
+                  <div className="sun-mon-frame">
+                    <div className="sun">SUN</div>
+                    <div className="mon">MON</div>
+                    <div className="tue">TUE</div>
+                  </div>
+                  <div className="sun-mon-frame1">
+                    <div className="div">27</div>
+                    <div className="div1">28</div>
+                    <div className="div2">29</div>
+                  </div>
+                </div>
+                <div className="wed-thu-fri-sat">
+                  <div className="wed-frame">
+                    <div className="wed">WED</div>
+                    <div className="thu-frame">
+                      <div className="thu">THU</div>
+                    </div>
+                    <div className="thu-frame1">
+                      <div className="fri">FRI</div>
+                    </div>
+                    <div className="sat">SAT</div>
+                  </div>
+                  <div className="sat-frame">
+                    <div className="empty-frame">30</div>
+                    <div className="empty-frame1">31</div>
+                    <div className="empty-frame2">01</div>
+                    <div className="empty-frame3">02</div>
+                  </div>
                 </div>
               </div>
-              <div class="group-div">
-                <div class="rectangle-div" />
-                <div class="bounce-rate">Bounce rate</div>
-                <div class="div1">2500$</div>
-                <div class="bounce-rate-today-container">
-                  <span>+25%</span>
-                  <span class="bounce-rate-today"> Bounce rate today </span>
-                </div>
-              </div>
-              <div class="rectangle-parent1">
-                <div class="frame-child1" />
-                <div class="bounce-rate1">Bounce rate</div>
-                <div class="div2">25300</div>
-                <div class="complete">
-                  <span>+25%</span>
-                  <span class="complete1"> complete</span>
-                </div>
-              </div>
-            </nav>
-            <div class="pages-by-users-viewed">
-              <div class="today-instance-marker">
-                <div class="rectangle-parent2">
-                  <div class="frame-child2" />
-                  <div class="index-h-t-m-l-rectangle">
-                    <div class="audience-overview">Audience overview</div>
-                    <div class="weekly-parent">
-                      <div class="weekly">Weekly</div>
-                      <img
-                        class="mingcuteleft-fill-icon"
-                        alt=""
-                        src="./public/mingcuteleftfill@2x.png"
-                      />
+              <div className="calendar">
+                <div className="frame-parent">
+                  <div className="frame-group">
+                    <div className="parent">
+                      <div className="div3">03</div>
+                      <div className="div4">04</div>
+                    </div>
+                    <div className="pending-days-parent">
+                      <div className="pending-days">10</div>
+                      <div className="pending-approvals">11</div>
                     </div>
                   </div>
-                  <div class="vector">
-                    <div class="frame-blog">
-                      <div class="world-traffic">1000</div>
-                      <div class="world-traffic1">750</div>
-                      <div class="world-traffic2">500</div>
-                      <div class="world-traffic3">250</div>
-                      <div class="world-traffic4">0</div>
+                  <div className="frame-container">
+                    <div className="group">
+                      <div className="div5">05</div>
+                      <div className="div6">06</div>
                     </div>
-                    <div class="frames-pages-view-by-users-tod">
-                      <div class="frames-pages-view-by-users-tod1">
-                        <div class="frames-pages-view-by-users-tod2">
-                          <div class="frames-pages-view-by-users-tod3">
-                            <div class="frames-pages-view-by-users-tod4" />
-                            <div class="frames-pages-view-by-users-tod5" />
-                            <div class="frames-pages-view-by-users-tod6" />
-                            <div class="frames-pages-view-by-users-tod7" />
-                            <div class="frames-pages-view-by-users-tod8" />
-                          </div>
-                          <div class="weekdays-frame">
-                            <div class="frames-pages-view-by-users-tod9" />
-                            <div class="frames-pages-view-by-users-tod10" />
-                            <div class="frames-pages-view-by-users-tod11" />
-                            <div class="frames-pages-view-by-users-tod12" />
-                            <div class="frames-pages-view-by-users-tod13" />
-                            <div class="frames-pages-view-by-users-tod14" />
-                            <div class="frames-pages-view-by-users-tod15" />
-                          </div>
+                    <div className="container">
+                      <div className="div7">12</div>
+                      <div className="div8">13</div>
+                    </div>
+                  </div>
+                  <div className="calendar-month">
+                    <div className="weekdays">
+                      <div className="monday">07</div>
+                      <div className="monday1">08</div>
+                    </div>
+                    <div className="tuesday">
+                      <div className="wednesday">
+                        <div className="thursday">14</div>
+                        <div className="thursday1">15</div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="friday">
+                    <div className="saturday">09</div>
+                    <div className="saturday1">16</div>
+                  </div>
+                </div>
+                <div className="leave-types-parent">
+                  <div className="leave-types">17</div>
+                  <div className="leave-types1">18</div>
+                  <div className="leave2">
+                    <div className="ellipse-marker">
+                      <div className="ellipse-parent">
+                        <div className="frame-child"></div>
+                        <div className="frame-div">
+                          <div className="div9">19</div>
+                          <div className="div10">20</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="wrapper">
+                      <div className="div11">21</div>
+                    </div>
+                    <div className="days-off">22</div>
+                  </div>
+                  <div className="leave-types2">23</div>
+                </div>
+                <div className="government-holidays">
+                  <div className="parent-calendar">24</div>
+                  <div className="parent-calendar1">25</div>
+                  <div className="parent-calendar2">26</div>
+                  <div className="parent-calendar3">27</div>
+                  <div className="parent-calendar4">28</div>
+                  <div className="parent-calendar5">29</div>
+                  <div className="parent-calendar6">30</div>
+                </div>
+              </div>
+            </div>
+            <div className="holiday-frame">
+              <div className="leave-container"></div>
+              <div className="calendar-date">
+                <div className="govt-holiday">Govt Holiday</div>
+              </div>
+              <div className="leave-container1"></div>
+              <div className="leave3">Leave</div>
+            </div>
+          </div>
+        </section>
+        <section className="september-month-frame">
+          <div className="s-u-n-m-o-n-t-u-w-e-d-t-h-f-f">
+            <div className="w-e-d-t-h-u-t-f-r-i-frame">
+              <b className="attendance-statistics">Attendance Statistics</b>
+              <div className="govt-holiday-leave-frame">
+                <div className="header-title-frame"></div>
+              </div>
+              <div className="icon-frame">
+                <div className="present-on-time1">Present- On Time</div>
+              </div>
+              <div className="frame-with-two-children-frame">
+                <div className="frame-with-two-children-frame1"></div>
+              </div>
+              <div className="frame-with-one-child-frame-a">
+                <div className="present-late-entry">Present- Late Entry</div>
+              </div>
+              <div className="status-frame">
+                <div className="bell-icon1"></div>
+              </div>
+              <div className="search-box">
+                <div className="absent1">Absent</div>
+              </div>
+              <div className="presenton-time-vs-late">
+                <div className="absent-vs-leave"></div>
+              </div>
+              <div className="leave4">Leave</div>
+            </div>
+            <div className="date-of-application-frame">
+              <b className="monthly">Monthly</b>
+              <div className="eleanor-pena1">
+                <div className="eleanor-pena-child"></div>
+                <b className="today1">Today</b>
+                <b className="sep">21 Sep</b>
+                <div className="casual-leave">
+                  <div className="late-entry1">
+                    <div className="paternity-leave"></div>
+                    <div className="approval-frame1"></div>
+                    <div className="personnel-ellipse"></div>
+                    <div className="thursday-to-saturday"></div>
+                  </div>
+                </div>
+                <div className="midweek">
+                  <div className="ellipse-shape">
+                    <div className="government-holiday">
+                      <div className="leave-request">
+                        <div className="calendar-frame1">
+                          <div className="frame-approval-status"></div>
                           <img
-                            class="frames-pages-view-by-users-tod16"
+                            className="arrow-back-ios-new-icon"
                             loading="eager"
                             alt=""
-                            src="./public/vector-1.svg"
+                            src="./public/arrow-back-ios-new.svg"
                           />
                         </div>
-                        <div class="frames-pages-view-by-users-tod17">
-                          <div class="frames-pages-view-by-users-tod18">
-                            <div class="sun">Sun</div>
-                            <div class="mon">Mon</div>
-                            <div class="tue">Tue</div>
-                            <div class="wed">Wed</div>
-                            <div class="thu">Thu</div>
-                            <div class="fri">Fri</div>
-                            <div class="sat">Sat</div>
-                          </div>
-                        </div>
+                        <b className="sep-2022">Sep 2022</b>
                       </div>
                     </div>
-                  </div>
-                </div>
-                <div class="blog1">
-                  <div class="blog-child" />
-                  <div class="traffic-source-wrapper">
-                    <div class="traffic-source">Traffic source</div>
-                  </div>
-                  <div class="parent">
-                    <b class="b">1280</b>
-                    <div class="traffic-sources">
-                      <div class="lorem-ipsum-dolor-container">
-                        <p class="lorem-ipsum-dolor">
-                          Lorem ipsum dolor sit amet consectetur. Amet maecenas
-                          amet
-                        </p>
-                        <p class="lobortis-elit-feugiat">
-                          lobortis elit feugiat. Commodo tellus ante tristique
-                          gravida dolor
-                        </p>
-                        <p class="curabitur-elit-vitae-ipsum-ad">
-                          <span>
-                            curabitur elit vitae. Ipsum adipiscing nibh nulla...
-                          </span>
-                          <span class="read-more">Read more</span>
-                        </p>
-                      </div>
+                    <div className="frame-calendar-weekdays">
+                      <b className="frame-calendar-month">100</b>
                     </div>
-                  </div>
-                </div>
-                <div class="world-trafic">
-                  <div class="world-trafic-child" />
-                  <div class="organic-traffic">
-                    <div class="organic-traffic1">Organic traffic</div>
-                    <div class="maskgroup">
-                      <div class="weekly1">Weekly</div>
-                      <img
-                        class="mingcuteleft-fill-icon1"
-                        alt=""
-                        src="./public/mingcuteleftfill@2x.png"
-                      />
-                    </div>
-                  </div>
-                  <div class="visitors">
-                    <div class="group">
-                      <div class="frame-container">
-                        <div class="frame-div">
-                          <img
-                            class="group-icon"
-                            alt=""
-                            src="./public/group-2.svg"
-                          />
-
-                          <img
-                            class="frame-child3"
-                            alt=""
-                            src="./public/group-2.svg"
-                          />
-
-                          <img
-                            class="mask-group-icon"
-                            alt=""
-                            src="./public/mask-group.svg"
-                          />
-
-                          <img
-                            class="mask-group-icon1"
-                            alt=""
-                            src="./public/mask-group-1.svg"
-                          />
-                        </div>
-                        <img
-                          class="mask-group-icon2"
-                          loading="eager"
-                          alt=""
-                          src="./public/mask-group-2.svg"
-                        />
-                      </div>
-                      <div class="p-c-devices">
-                        <div class="others-devices">
-                          <div class="session-device">
-                            <img
-                              class="session-device-child"
-                              loading="eager"
-                              alt=""
-                              src="./public/ellipse-1.svg"
-                            />
-
-                            <div class="registered-users">Registered Users</div>
+                    <div className="frame-approval-frame-pending">
+                      <div className="frame-approval-frame-rejected">
+                        <div className="frame-approval-frame-approved">
+                          <div className="frame-search-bell">
+                            <b className="frame-search-text">75</b>
+                            <b className="rectangle-presentational-ellip">50</b>
+                            <b className="frame-govt-holiday">25</b>
+                            <b className="leave-label">0</b>
                           </div>
-                          <div class="session-device1">
-                            <img
-                              class="session-device-item"
-                              loading="eager"
-                              alt=""
-                              src="./public/ellipse-1-1.svg"
-                            />
-
-                            <div class="new-users">New Users</div>
-                          </div>
-                          <div class="session-device2">
-                            <img
-                              class="session-device-inner"
-                              loading="eager"
-                              alt=""
-                              src="./public/ellipse-1-2.svg"
-                            />
-
-                            <div class="visitors1">Visitors</div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="pages-viewby-users">
-                <div class="silver-admin-dashboard">
-                  <div class="silver-admin-dashboard-child" />
-                  <div class="users-summary">
-                    <div class="device-types-summary">
-                      <div class="ellipse-parent">
-                        <div class="ellipse-div" />
-                        <div class="frame-child4" />
-                        <div class="frame-child5" />
-                      </div>
-                      <div class="registered-mobile-users">
-                        <div class="mobile-active-users-parent">
-                          <div class="mobile-active-users">
-                            <div class="k1">2.5k</div>
-                            <div class="active-users">Active users</div>
-                          </div>
-                          <div class="pages-by-users-summary">
-                            <div class="mobile-traffic-breakdown">
-                              <div class="instance-parent">
+                          <div className="frame-frame-w-e-d-t-h-u-f-r-i">
+                            <div className="frame-frame">
+                              <div className="frame-frame-parent">
                                 <img
-                                  class="ellipse-icon"
-                                  loading="eager"
+                                  className="frame-frame-icon"
                                   alt=""
-                                  src="./public/ellipse-1.svg"
+                                  src="./public/frame-frame.svg"
                                 />
 
-                                <div class="mobile">Mobile</div>
-                              </div>
-                              <div class="instance-group">
                                 <img
-                                  class="frame-child6"
-                                  loading="eager"
+                                  className="absent-icon"
                                   alt=""
-                                  src="./public/ellipse-1-1.svg"
+                                  src="./public/absent.svg"
                                 />
 
-                                <div class="pc">PC</div>
-                              </div>
-                              <div class="instance-container">
-                                <img
-                                  class="frame-child7"
-                                  loading="eager"
-                                  alt=""
-                                  src="./public/ellipse-1-5.svg"
-                                />
+                                <div className="frame-frame1">
+                                  <img
+                                    className="absent-leave-icon"
+                                    alt=""
+                                    src="./public/vector-1.svg"
+                                  />
 
-                                <div class="others">Others</div>
-                              </div>
-                            </div>
-                            <div class="frame-parent1">
-                              <div class="wrapper">
-                                <b class="b1">47%</b>
-                              </div>
-                              <b class="b2">35%</b>
-                              <b class="b3">18%</b>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="device-categories-summary">
-                    <div class="session-device3">Session device</div>
-                  </div>
-                </div>
-                <div class="browser">
-                  <div class="browser-child" />
-                  <div class="browser-data">
-                    <div class="browser-used">Browser used</div>
-                    <div class="today-parent">
-                      <div class="today">Today</div>
-                      <img
-                        class="mingcuteleft-fill-icon2"
-                        alt=""
-                        src="./public/mingcuteleftfill@2x.png"
-                      />
-                    </div>
-                  </div>
-                  <div class="user-panel">
-                    <div class="frame-parent2">
-                      <div class="chrome-parent">
-                        <img
-                          class="chrome-icon"
-                          loading="eager"
-                          alt=""
-                          src="./public/chrome@2x.png"
-                        />
+                                  <div className="frame-empty-area">
+                                    <img
+                                      className="approval-status-icon"
+                                      alt=""
+                                      src="./public/vector-2.svg"
+                                    />
 
-                        <div class="mobile-users" />
-                        <div class="p-c-users" />
-                      </div>
-                      <div class="fox-parent">
-                        <img
-                          class="fox-icon"
-                          loading="eager"
-                          alt=""
-                          src="./public/fox@2x.png"
-                        />
-
-                        <div class="frame-child8" />
-                        <div class="frame-child9" />
-                      </div>
-                      <div class="microsoft-edge-parent">
-                        <img
-                          class="microsoft-edge-icon"
-                          loading="eager"
-                          alt=""
-                          src="./public/microsoft-edge@2x.png"
-                        />
-
-                        <div class="frame-child10" />
-                        <div class="frame-child11" />
-                      </div>
-                      <div class="frame-parent3">
-                        <div class="brave-web-browser-parent">
-                          <img
-                            class="brave-web-browser"
-                            loading="eager"
-                            alt=""
-                            src="./public/brave-web-browser@2x.png"
-                          />
-
-                          <div class="frame-child12" />
-                          <div class="frame-child13" />
-                        </div>
-                        <div class="container">
-                          <div class="div3">0</div>
-                          <div class="div4">20%</div>
-                          <div class="div5">40%</div>
-                          <div class="div6">60%</div>
-                          <div class="div7">80%</div>
-                          <div class="div8">100%</div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="user-panel1">
-                  <div class="user-panel-child" />
-                  <div class="pages-by-users">
-                    <div class="pages-view-by">Pages view by users</div>
-                    <div class="user-stats-panel">
-                      <div class="today1">Today</div>
-                      <img
-                        class="mingcuteleft-fill-icon3"
-                        alt=""
-                        src="./public/mingcuteleftfill@2x.png"
-                      />
-                    </div>
-                  </div>
-                  <div class="user-panel-inner">
-                    <div class="admin-dashboard-header-parent">
-                      <div class="admin-dashboard-header">
-                        <div class="admin-dashboard-silver">
-                          <div class="admin-dashboard-dimond">
-                            <img
-                              class="silver-admin-index"
-                              loading="eager"
-                              alt=""
-                              src="./public/frame-49.svg"
-                            />
-
-                            <div class="dashboard-index-html">
-                              <div class="silver-admin-dashboard1">
-                                Silver- Admin dashboard
-                              </div>
-                              <div class="index-html">Index. html</div>
-                            </div>
-                          </div>
-                          <div class="dashboard-rectangle">
-                            <div class="rectangle-frame1" />
-                            <div class="gold-admin-dashboard">228</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="line-separator" />
-                      <div class="admin-dashboard-header1">
-                        <div class="frame-parent4">
-                          <div class="frame-parent5">
-                            <img
-                              class="frame-icon"
-                              loading="eager"
-                              alt=""
-                              src="./public/frame-48.svg"
-                            />
-
-                            <div class="dimond-admin-dashboard-parent">
-                              <div class="dimond-admin-dashboard">
-                                Dimond- Admin dashboard
-                              </div>
-                              <div class="index-html1">Index. html</div>
-                            </div>
-                          </div>
-                          <div class="rectangle-parent3">
-                            <div class="frame-child14" />
-                            <div class="div9">150</div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="frame-line">
-                        <div class="frame-data-frame" />
-                        <div class="index-html-frame">
-                          <div class="frame-rectangle">
-                            <div class="gold-admin-dashboard1">
-                              <img
-                                class="gold-dashboard-index"
-                                alt=""
-                                src="./public/gold-dashboard-index.svg"
-                              />
-
-                              <div class="gold-admin-dashboard-parent">
-                                <div class="gold-admin-dashboard2">
-                                  Gold- Admin dashboard
+                                    <img
+                                      className="present-or-late"
+                                      alt=""
+                                      src="./public/vector-3.svg"
+                                    />
+                                  </div>
+                                  <img
+                                    className="present-on-time-icon"
+                                    alt=""
+                                    src="./public/presenton-time.svg"
+                                  />
                                 </div>
-                                <div class="index-html2">Index. html</div>
                               </div>
-                            </div>
-                            <div class="line-separator1">
-                              <div class="line-separator-child" />
-                              <div class="gold-admin-dashboard3">180</div>
                             </div>
                           </div>
                         </div>
+                        <div className="c-u-l-data">
+                          <div className="savannah-nguyen-eleanor-pena">
+                            <b className="approved-rejected-pending">01</b>
+                            <b className="personal-calendar-header">02</b>
+                            <div className="weekdays1">
+                              <b className="sun-mon-tue">03</b>
+                            </div>
+                            <b className="sunday-monday-tuesday">04</b>
+                            <b className="approved-rejected-pending1">05</b>
+                            <b className="september-calendar-view">06</b>
+                            <b className="employee-leave">07</b>
+                            <b className="approved-rejected-pending2">08</b>
+                            <b className="government-holiday1">09</b>
+                            <b className="approved-rejected-pending3">10</b>
+                            <b className="approved-rejected-pending4">11</b>
+                            <b className="approved-rejected-pending5">12</b>
+                            <b className="approved-rejected-pending6">13</b>
+                            <b className="ellipse-shape1">14</b>
+                            <b className="frame-container-children">15</b>
+                            <b className="timeframe">16</b>
+                            <b className="month-label">17</b>
+                            <b className="arrow-dropdown">18</b>
+                            <b className="search-frame1">19</b>
+                            <b className="bell">20</b>
+                            <b className="present-on-time2">21</b>
+                            <b className="late1">22</b>
+                            <b className="approval">23</b>
+                            <b className="cul-frame">24</b>
+                            <b className="september">25</b>
+                            <b className="sunday-to-thursday">26</b>
+                            <b className="wednesday-to-saturday">27</b>
+                            <b className="sun-mon-tue1">28</b>
+                            <b className="present-on-time3">29</b>
+                            <b className="applicant1">30</b>
+                          </div>
+                        </div>
                       </div>
+                    </div>
+                    <div className="approval-frame2">
+                      <div className="govt-holiday1"></div>
+                      <img
+                        className="arrow-forward-ios-icon2"
+                        alt=""
+                        src="./public/arrow-forward-ios-2.svg"
+                      />
                     </div>
                   </div>
                 </div>
               </div>
             </div>
-          </section>
-        </main>
-      </div>
+            <div className="parent-container-with-children">
+              <div className="input-area-with-labels">
+                <img
+                  className="present-late-entry-icon"
+                  alt=""
+                  src="./public/presentlate-entry.svg"
+                />
+
+                <img
+                  className="leave-icon"
+                  loading="eager"
+                  alt=""
+                  src="./public/leave.svg"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="september-month-frame1">
+          <div className="attendance-statistics-parent">
+            <b className="attendance-statistics1">Attendance Statistics</b>
+            <div className="present-absent">
+              <div className="present-absent-child"></div>
+            </div>
+            <div className="present-absent1">
+              <div className="casual">Casual</div>
+            </div>
+            <div className="present-absent2">
+              <div className="c-u-l-frame9"></div>
+            </div>
+            <div className="present-absent3">
+              <div className="sick">Sick</div>
+            </div>
+            <div className="personal-calendar">
+              <div className="sunday-to-thursday1"></div>
+            </div>
+            <div className="friday-to-saturday">
+              <div className="maternity">Maternity</div>
+            </div>
+            <div className="govt-approval">
+              <div className="header-frame1"></div>
+            </div>
+            <div className="search-frame2">
+              <div className="paternity">Paternity</div>
+            </div>
+            <div className="cloud-frame">
+              <div className="text-frame"></div>
+            </div>
+            <div className="sick1">Sick</div>
+          </div>
+          <div className="arrow-shape">
+            <b className="monthly1">Monthly</b>
+            <div className="ellipse-shape2">
+              <div className="ellipse-shape-child"></div>
+              <b className="today2">Today</b>
+              <b className="sep1">21 Sep</b>
+              <div className="frame-frame2">
+                <div className="frame-contents">
+                  <div className="parent-frame"></div>
+                  <div className="frame-contents-child"></div>
+                  <div className="frame-contents-item"></div>
+                  <div className="frame-contents-inner"></div>
+                  <div className="ellipse-div"></div>
+                </div>
+              </div>
+              <div className="ellipse-shape-inner">
+                <div className="frame-parent1">
+                  <div className="frame-parent2">
+                    <div className="approval-frame-parent">
+                      <div className="approval-frame3">
+                        <div className="calendar-frame2"></div>
+                        <img
+                          className="arrow-back-ios-new-icon1"
+                          alt=""
+                          src="./public/arrow-back-ios-new-1.svg"
+                        />
+                      </div>
+                      <b className="sep-20221">Sep 2022</b>
+                    </div>
+                    <div className="ellipse-group">
+                      <div className="frame-item"></div>
+                      <img
+                        className="arrow-forward-ios-icon3"
+                        alt=""
+                        src="./public/arrow-forward-ios-3.svg"
+                      />
+                    </div>
+                  </div>
+                  <div className="ellipse-node-parent">
+                    <div className="ellipse-node">
+                      <b className="frame-parent3">100</b>
+                      <b className="b2">75</b>
+                      <b className="visual-structure">50</b>
+                      <b className="b3">25</b>
+                      <b className="b4">0</b>
+                    </div>
+                    <div className="line">
+                      <div className="line-child"></div>
+                      <div className="text-parent">
+                        <div className="text">
+                          <img
+                            className="vector-icon"
+                            alt=""
+                            src="./public/vector-4.svg"
+                          />
+
+                          <img
+                            className="vector-icon1"
+                            alt=""
+                            src="./public/vector-5.svg"
+                          />
+                        </div>
+                        <img
+                          className="frame-inner"
+                          loading="eager"
+                          alt=""
+                          src="./public/group-41.svg"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="partly-cloudy1">
+                    <b className="arrow-dropdown1">01</b>
+                    <b className="jalal-uddin1">02</b>
+                    <div className="c-e-o">
+                      <b className="b5">03</b>
+                    </div>
+                    <b className="absent-leave-frame1">04</b>
+                    <b className="wed-thu-sat">05</b>
+                    <b className="b6">06</b>
+                    <b className="b7">07</b>
+                    <b className="arrow-dropdown2">08</b>
+                    <b className="govt-holiday2">09</b>
+                    <b className="leave5">10</b>
+                    <b className="b8">11</b>
+                    <b className="calendar-frame3">12</b>
+                    <b className="search-frame3">13</b>
+                    <b className="bell-frame2">14</b>
+                    <b className="frame-group1">15</b>
+                    <b className="cloud-frame1">16</b>
+                    <b className="partly-cloudy-text">17</b>
+                    <b className="arrow-down-dropdown">18</b>
+                    <b className="presenton-time-late">19</b>
+                    <b className="absent-leave-frame2">20</b>
+                    <b className="cul-frame1">21</b>
+                    <b className="frame-savannah-nguyen">22</b>
+                    <b className="eleanor-pena-software">23</b>
+                    <b className="applicant-text">24</b>
+                    <b className="arrow-dropdown3">25</b>
+                    <b className="weekdays-container">26</b>
+                    <b className="wednesday-frame1">27</b>
+                    <b className="thursday-friday">28</b>
+                    <b className="arrow-dropdown4">29</b>
+                    <b className="leave-label1">30</b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
     </>
   );
 }
