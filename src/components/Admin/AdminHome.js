@@ -58,6 +58,15 @@ function AdminHome() {
             </div>
           </div>
         </div>
+        <div class="calendar">Calendar</div>
+      </div>
+      <div class="others1">
+        <img
+          class="bxchat-icon"
+          loading="eager"
+          alt=""
+          src="./public/bxchat.svg"
+        />
       </div>
     </>
   );
