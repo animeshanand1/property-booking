@@ -11,6 +11,8 @@ import AdminTab from "./components/Admin/Admin";
 import AdminHome from "./components/Admin/AdminHome";
 import Contact from "./components/contact/Contact";
 import ResetPassword from "./components/Forget-password/ResetPassword";
+import Otp from "./components/Otp/Otp";
+import UpdatePassword from "./components/Update-password/UpdatePassword";
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
         <Route path="/admin/home" element={<AdminHome/>} />
         <Route path="/contact" element={<Contact/>} />
         <Route path="/forget-password" element={<ResetPassword/>} />
+        <Route path="/forget-password/otp" element={<Otp/>} />
+        <Route path="/forget-password/update-password" element={<UpdatePassword/>} />
       </Routes>
     </Router>
   );
