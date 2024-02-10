@@ -9,6 +9,8 @@ import PropertyPage from "./components/Properties/PropertyPage";
 import Footer from "./components/Footer/Footer";
 import AdminTab from "./components/Admin/Admin";
 import AdminHome from "./components/Admin/AdminHome";
+import Contact from "./components/contact/Contact";
+import ResetPassword from "./components/Forget-password/ResetPassword";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
         <Route path="/property/:id" element={<PropertyPage/>} />
         <Route path="/admin/login" element={<AdminTab/>}/>
         <Route path="/admin/home" element={<AdminHome/>} />
+        <Route path="/contact" element={<Contact/>} />
+        <Route path="/forget-password" element={<ResetPassword/>} />
       </Routes>
     </Router>
   );
