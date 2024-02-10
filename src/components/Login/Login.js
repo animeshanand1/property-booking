@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from "react";
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom';
-import "./login.scoped.css";
+import "./login.css";
 function Login() {
   useEffect(() => {
     const signUpButton = document.getElementById("signUp");
@@ -67,7 +67,7 @@ function Login() {
     }
   }
   return (
-    <div className="body">
+    <div className='body'>
       <div class="container" id="container">
         <div class="form-container sign-up-container">
           <form method="post">
@@ -114,7 +114,7 @@ function Login() {
               </button>
             </div>
             <div class="overlay-panel overlay-right">
-              <h2 className="greet">Hello, Guest!</h2>
+              <h2 className='greet'>Hello, Guest!</h2>
               <p>Connect with us</p>
               <button class="ghost-2" id="signUp">
                 Sign Up
